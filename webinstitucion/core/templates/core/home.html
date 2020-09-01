@@ -1,0 +1,74 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+
+<!-- Cabecera -->
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/intro.jpeg' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <!--<span class="section-heading-upper">Nuestra</span>-->
+          <span class="section-heading-lower"><b>Misión</b></span>
+        </h2>
+        <p class="mb-3">Estructurar personas con principios y valores idóneos, capaces de liderar procesos de
+                        mejoramiento de las condiciones sociales, culturales, ambientales y económicas de las
+                        comunidades rurales de influencia. 
+        </p>
+        <!--<div class="intro-button mx-auto">
+          <a class="btn btn-primary btn-xl" href="store.html">Visítanos</a>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/intro2.jpeg' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <!--<span class="section-heading-upper">Nuestra</span>-->
+          <span class="section-heading-lower"><b>Visión</b></span>
+        </h2>
+        <p class="mb-3">Para el 2020 la Institución Educativa Benjamín Herrera se consolida como líder regional en
+                        el trabajo académico por habilidades intelectuales para el desarrollo de competencias y
+                        procesos de trabajo comunitario a partir de la formulación, ejecución y evaluación de
+                        proyectos, reflejándose esto en los óptimos resultados en pruebas internas y externas y
+                        transformación de la dinámica social de influencia.
+        </p>
+        <!--<div class="intro-button mx-auto">
+          <a class="btn btn-primary btn-xl" href="store.html">Visítanos</a>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mensaje -->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Educación por Competencias para el Desarrollo del Intelecto y la Convivencia</span>
+            <!--<span class="section-heading-lower">por Competencias</span>-->
+          </h2>
+          <p class="mb-0">Es fundamental en el proceso educativo centrar los esfuerzos en la enseñanza
+                          reciproca de herramientas que motiven entender el mundo desde puntos de vista
+                          diferentes con una instancia de confluencia: el mejoramiento de la persona como
+                          entidad social. 
+                          (Jiménez R.)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
